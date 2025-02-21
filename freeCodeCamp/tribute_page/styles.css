@@ -1,0 +1,29 @@
+body {
+    max-width: 1200px;
+    text-align: center;
+  }
+
+  #title {
+    display: block;
+    background-color: #C7CDCC;
+    margin: auto;
+  }
+
+  #title h1 {
+    border-top: 20px ;
+  }
+
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 5px auto;
+  }
+
+  #tribute-info {
+    background-color: #C7CDCC;
+  }
+
+  li {
+    text-align: left;
+  }
