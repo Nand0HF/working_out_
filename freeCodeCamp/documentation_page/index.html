@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Languages Documentation</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#html">HTML</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#css">CSS</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#javascript">JavaScript</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#python">Python</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#sql">SQL</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+
+      <section class="main-section" id="html">
+        <header>HTML</header>
+        <article>
+          <p>HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured. This markup tells a web browser how to display text, images and other forms of multimedia on a webpage.</p>
+          <p>HTML is a formal recommendation by the World Wide Web Consortium (W3C) and is generally adhered to by all major web browsers, including both desktop and mobile web browsers. HTML5 is the latest version of the specification.</p>
+          <p>Some basic HTML tags and syntax:</p>
+          <pre><code>&lth1&gtMy Heading&lt/h1&gt
+                     &ltp&gtMy paragraph&lt/p&gt
+          </code></pre>
+          <p>Another HTML frecuent used tags:</p>
+          <ul>
+            <li>&lt!DOCTYPE&gt</li>
+            <li>&lthtml&gt</li>
+            <li>&lthead&gt</li>
+            <li>&ltbody&gt</li>
+            <li>&lttitle&gt</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="css">
+        <header>CSS</header>
+        <article>
+          <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+          <p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, the development of various parts of CSS specification was done synchronously, which allowed the versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers.</p>
+          <p>Some basic CSS properties and syntax:</p>
+          <pre><code>p {
+                color: red;
+                text-align: center;
+              }
+          </code></pre>
+          <p>Another CSS frecuent used properties:</p>
+          <ul>
+            <li>background-color</li>
+            <li>font-size</li>
+            <li>width</li>
+            <li>height</li>
+            <li>display</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="javascript">
+        <header>JavaScript</header>
+        <article>
+          <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages.</p>
+          <p>Every time a web page does more than just sit there and display static information for you to look at displaying timely content updates, interactive maps and animated 2D/3D graphics etc.</p>
+          <p>Some basic JavaScript code and syntax:</p>
+          <pre><code>&ltbutton type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'&gtClick Me!&lt/button&gt
+          </code></pre>
+          <p>JavaScript data types:</p>
+          <ul>
+            <li>String</li>
+            <li>Number</li>
+            <li>Bigint</li>
+            <li>Boolean</li>
+            <li>Undefined</li>
+            <li>Null</li>
+            <li>Symbol</li>
+            <li>Object</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="python">
+        <header>Python</header>
+        <article>
+          <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.</p>
+          <p>Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.</p>
+          <p>Some basic Python code and syntax:</p>
+          <pre><code>x = 5
+                     y = "John"
+                     print(x)
+                     print(y)
+                     print("Hello, World!")
+          </code></pre>
+          <p>Python data structures:</p>
+          <ul>
+            <li>List</li>
+            <li>Dictionary</li>
+            <li>Tuple</li>
+            <li>Set</li>
+            <li>String</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="sql">
+        <header>SQL</header>
+        <article>
+          <p>Structured query language (SQL) is a programming language for storing and processing information in a relational database. A relational database stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.</p>
+          <p>You can use SQL statements to store, update, remove, search, and retrieve information from the database. You can also use SQL to maintain and optimize database performance.</p>
+          <p>Some basic SQL code and syntax:</p>
+          <pre><code>SELECT column_name(s)
+              FROM table_name
+              WHERE column_1 = value_1
+                AND column_2 = value_2;
+          </code></pre>
+          <p>SQL frequent used commands:</p>
+          <ul>
+            <li>AS</li>
+            <li>LIMIT</li>
+            <li>COUNT</li>
+            <li>MIN</li>
+            <li>MAX</li>
+            <li>AVERAGE</li>
+            <li>WHERE</li>
+            <li>HAVING</li>
+            <li>AND</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
