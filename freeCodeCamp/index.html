@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta cahrset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Tell us about you</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Full Name: <input id="name" type="text" placeholder="John Doe" required/></label>
+        <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="jhondoe@gmail.com" required/></label>
+        <label for="number" id="number-label">Age: <input id="number" type="number" min="13" max="120" placeholder="35"/></label>
+      </fieldset>
+      <fieldset>
+        <select id="dropdown">
+          <option>(select one)</option>
+          <option>example1</option>
+          <option>example2</option>
+        </select>
+        <label for="mate" id="mate-label"> <input id="mate" type="radio" name="subject" value="mate"  class="inline" checked/>Mathematics</label>
+        <label for="history" id="history-label"> <input id="history" type="radio" name="subject" value="history" class="inline" />History</label>
+      </fieldset>
+      <fieldset>
+        <label for="oxford-uni" id="oxford-label"> <input type="checkbox" value="oxford" class="inline"  />Oxford</label>
+        <label for="harvard-uni" id="harvard-label"> <input type="checkbox" value="harvard" class="inline"  />Harvard</label>
+        <label for="cambridge-uni" id="cambridge-label"> <input type="checkbox" value="cambridge" class="inline"  />Cambridge</label>
+        <label>
+          <textarea rows="3" cols="30" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
