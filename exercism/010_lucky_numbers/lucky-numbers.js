@@ -24,7 +24,7 @@ export function luckyNumber(value) {
     firstHalf += valueToString[index];
     secondHalf += valueToString[valueToString.length - 1 - index];
   }
-  return firstHalf == secondHalf;
+  return firstHalf === secondHalf;
 }
 
 /**
