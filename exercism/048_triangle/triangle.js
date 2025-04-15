@@ -8,7 +8,7 @@ export class Triangle {
     [this.a, this.b, this.c] = sides.sort((a, b) => a - b);
     this.isTriangle = !(this.a <= 0 || this.a + this.b < this.c);
   }
-  
+
   get isEquilateral() {
     return this.isTriangle && this.a === this.c;
   }
