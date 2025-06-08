@@ -3,6 +3,11 @@
 // convenience to get you started writing code faster.
 //
 
+//
+// This is only a SKELETON file for the 'Custom Set' exercise. It's been provided as a
+// convenience to get you started writing code faster.
+//
+
 export class CustomSet {
   constructor(numbersArray = []) {
     this.elements = [];
@@ -53,12 +58,10 @@ export class CustomSet {
   }
 
   union(otherSet) {
-    const newElements = [...this.elements];
-
     for (const element of otherSet.elements) {
-      if (!this.contains(element)) newElements.push(element);
+      this.add(element);
     }
-    return new CustomSet(newElements);
+    return this;
   }
 
   intersection(otherSet) {
